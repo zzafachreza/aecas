@@ -86,22 +86,22 @@ export default function Home({ navigation }) {
                     marginVertical: 5,
                 }}>
                     <DataMenu onPress={() => navigation.navigate('Cek')} judul="Memeriksa Status Gizi" img={require('../1.png')} />
-                    <DataMenu judul="Mengenal Stunting" img={require('../2.png')} />
+                    <DataMenu onPress={() => navigation.navigate('Menu1')} judul="Mengenal Stunting" img={require('../2.png')} />
                 </View>
                 <View style={{
                     flexDirection: 'row',
                     justifyContent: 'space-around',
                     marginVertical: 5,
                 }}>
-                    <DataMenu judul="Inisiasi Menyusui Dini" img={require('../3.png')} />
-                    <DataMenu judul="Pemberian ASI Ekslusif dan Lanjut" img={require('../4.png')} />
+                    <DataMenu onPress={() => navigation.navigate('Menu2')} judul="Inisiasi Menyusui Dini" img={require('../3.png')} />
+                    <DataMenu onPress={() => navigation.navigate('Menu3')} judul="Pemberian ASI Ekslusif dan Lanjut" img={require('../4.png')} />
                 </View>
                 <View style={{
                     flexDirection: 'row',
                     justifyContent: 'space-around',
                     marginVertical: 5,
                 }}>
-                    <DataMenu judul="Gizi Ibu Hamil dan Menyusui" img={require('../5.png')} />
+                    <DataMenu onPress={() => navigation.navigate('Menu4')} judul="Gizi Ibu Hamil dan Menyusui" img={require('../5.png')} />
                     <DataMenu onPress={() => navigation.navigate('Menu5')} judul="MP-ASI" img={require('../6.png')} />
                 </View>
             </View>
