@@ -10,7 +10,7 @@ export default function Menu5() {
     const [halaman, setHalaman] = useState(0);
 
     // const source = { uri: 'http://samples.leanpub.com/thereactnativebook-sample.pdf', cache: true };
-    const source = require('../menu5.pdf');  // ios only
+    const source = { uri: 'bundle-assets://pdf/menu5.pdf' };
     //const source = {uri:'bundle-assets://test.pdf' };
     //const source = {uri:'file:///sdcard/test.pdf'};
     //const source = {uri:"data:application/pdf;base64,JVBERi0xLjcKJc..."};
