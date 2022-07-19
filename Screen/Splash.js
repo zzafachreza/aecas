@@ -35,6 +35,7 @@ export default function Splash({ navigation }) {
                 <Text style={styles.txt}>Citra Setyo Dwiandhini, S.Kep., Ns., M.Kep.</Text>
                 <Text style={styles.txt}>Halimatus Sa'diya</Text>
                 <Text style={styles.txt}>Fega Nurpuji</Text>
+                <Text style={styles.txtBrand}>Stikes Mahardika Cirebon</Text>
             </View>
         </SafeAreaView >
     )
@@ -43,14 +44,14 @@ export default function Splash({ navigation }) {
 const styles = StyleSheet.create({
     txt: {
         fontFamily: fonts.secondary[400],
-        fontSize: 14,
+        fontSize: 15,
         marginVertical: 2,
         color: colors.primary,
     }
     , txt2: {
         fontFamily: fonts.secondary[600],
-        fontSize: 14,
-        marginBottom: 20,
+        fontSize: 18,
+        marginBottom: 10,
         color: colors.primary,
     },
     txtLogo: {
@@ -61,6 +62,12 @@ const styles = StyleSheet.create({
     }, txtLogo2: {
         fontFamily: fonts.secondary[400],
         fontSize: 18,
+        color: colors.primary,
+    },
+    txtBrand: {
+        fontFamily: fonts.secondary[600],
+        fontSize: 17,
+        marginTop: 10,
         color: colors.primary,
     }
 
